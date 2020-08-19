@@ -30,7 +30,7 @@ public class Person {
 
 	public Person(PersonDto personDto) {
 		this.name = personDto.getName();
-		this.surname = "imported...";
+		this.surname = "Imported person...";
 		this.age = 0;
 	}
 
