@@ -1,0 +1,15 @@
+package pl.stormit.kp.http;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class TimeController {
+
+	// http://localhost:8080/time
+
+	@GetMapping("time")
+	public String time() {
+		return "" + System.currentTimeMillis();
+	}
+}
